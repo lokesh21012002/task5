@@ -1,0 +1,143 @@
+*{
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+   box-sizing: border-box;
+}
+
+ body
+{
+height: 100vh;
+width: 100vw;
+    
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/edit.jpg");
+    z-index: -1;
+    opacity: 0.8;
+    
+    /* background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url('./images/a.jpeg');  */ */
+
+         /* background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url('https://wallpaperaccess.com/full/300068.jpg'); */ */
+        /* background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url('https://wallpaperaccess.com/full/300068.jpg'); */
+         /* background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url('../img/download\ \(1\).jpg');  */
+    
+    /* background: linhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fquotefancy.com%2Fmedia%2Fwallpaper%2F3840x2160%2F1534542-Carl-Karcher-Quote-If-the-money-we-donate-helps-one-child-or-can.jpg&imgrefurl=https%3A%2F%2Fquotefancy.com%2Fquote%2F1265229%2FCarl-Karcher-If-the-money-we-donate-helps-one-child-or-can-ease-the-pain-of-one-parent&tbnid=DgE2HRcPOfYX5M&vet=12ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQ..i&docid=aNcoM-8xs_kdLM&w=3840&h=2160&q=donate%20money%20images%20with%20qotation&hl=en&ved=2ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fquotefancy.com%2Fmedia%2Fwallpaper%2F3840x2160%2F1534542-Carl-Karcher-Quote-If-the-money-we-donate-helps-one-child-or-can.jpg&imgrefurl=https%3A%2F%2Fquotefancy.com%2Fquote%2F1265229%2FCarl-Karcher-If-the-money-we-donate-helps-one-child-or-can-ease-the-pain-of-one-parent&tbnid=DgE2HRcPOfYX5M&vet=12ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQ..i&docid=aNcoM-8xs_kdLM&w=3840&h=2160&q=donate%20money%20images%20with%20qotation&hl=en&ved=2ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fquotefancy.com%2Fmedia%2Fwallpaper%2F3840x2160%2F1534542-Carl-Karcher-Quote-If-the-money-we-donate-helps-one-child-or-can.jpg&imgrefurl=https%3A%2F%2Fquotefancy.com%2Fquote%2F1265229%2FCarl-Karcher-If-the-money-we-donate-helps-one-child-or-can-ease-the-pain-of-one-parent&tbnid=DgE2HRcPOfYX5M&vet=12ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQ..i&docid=aNcoM-8xs_kdLM&w=3840&h=2160&q=donate%20money%20images%20with%20qotation&hl=en&ved=2ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fquotefancy.com%2Fmedia%2Fwallpaper%2F3840x2160%2F1534542-Carl-Karcher-Quote-If-the-money-we-donate-helps-one-child-or-can.jpg&imgrefurl=https%3A%2F%2Fquotefancy.com%2Fquote%2F1265229%2FCarl-Karcher-If-the-money-we-donate-helps-one-child-or-can-ease-the-pain-of-one-parent&tbnid=DgE2HRcPOfYX5M&vet=12ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQ..i&docid=aNcoM-8xs_kdLM&w=3840&h=2160&q=donate%20money%20images%20with%20qotation&hl=en&ved=2ahUKEwi6-u63_fbwAhVbUn0KHQj8C_wQMygWegUIARDmAQear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url('https://wallpaperaccess.com/full/300068.jpg'); */
+    
+    
+    
+   
+    
+    
+    
+} 
+.login-page{
+    width: 360px;
+    /* width: 360px; */
+    padding: 20px 0 0;
+    margin: auto;
+    
+
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(155, 156, 158, 0.8);
+    width: 360px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    text-align: center;
+    opacity: 0.6;
+
+    /* background: transparent; */
+}
+.form input{
+    font-family: 'Courier New', Courier, monospace;
+    outline: 1;
+    background: #0c0b0b;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+    opacity: none;
+    color: white;
+
+
+}
+.form input:hover{
+    border: 4px solid white;
+    color: white;
+}
+.form .b{
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffff;
+    padding: 15px;
+    /* border-radius: 20px; */
+    /* height: 30px; */
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    background: #020202;
+    opacity: none;
+
+}
+.form .b:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: rgb(92, 90, 90);
+    transition: all ease 0.2s;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 4px solid whitesmoke;
+}
+
+
+.me{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+    
+}
+
+span{
+    color: rgb(241, 145, 145);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: extra-condensed;
+    font-stretch: condensed;
+    letter-spacing: 0.3px;
+    word-spacing: normal;
+}
+    
+/* text-decoration-line: underline; */
+    
+
+h4,h3{
+    font-size: 40px;
+    font-size: larger !important;
+    font-style: normal;
+    font-weight: 600% !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: extra-condensed;
+    font-stretch: condensed;
+    letter-spacing: 0.3px;
+    word-spacing: normal;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+    padding-top: 10px;
+    margin-top: 10px;
+}
